@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeCode Antwerpen</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.0/dist/paper.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="paper container">
+  <header class="child-borders">
+    <h1 class="hidden">BeCode Antwerpen</h1>
+    <nav class="border fixed split-nav">
+      <h2 class="hidden">Navigation</h2>
+      <form class="nav-search">
+        <input type="text" id="search" placeholder="find episode">
+      </form>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1">
+        <button>
+        <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </label>
+        </button>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li class="nav-item"><a class="nav-link" href="#">EPISODES</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TALK</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CAST &amp; CREW</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="episode-short row">
+        <p class="episode col-12">Season 1, Episode 3</p>
+        <h2 class="subtitle col-12">"The one with control structures"</h2>
+        <a hrefcol class="paper-btn button">watch episode</a>
+    </div>
+  </header>
+  <main>
+    <section class="child-borders">
+      <h2 class="season-title">Season 1</h2>
+      <ul class="episode-list child-borders padding-small">
+        <li class="episode-item row"><span class="episode-number col">1</span><span class="episode-title sm-12 md-4 col">"The one with variables"</span><span class="episode-meta sm-12 md-6 col row"><span class="episode-director col-4">Hedy Lamarr</span><span class="episode-writer col-4">Hedy Lamarr</span><span class="episode-air col-3">Januari 15, 2019</span><span class="episode-viewers col-1">17M</span></span></li>
+        <li class="episode-item row"><span class="episode-number col">2</span><span class="episode-title sm-12 md-4 col">"The one with operators"</span><span class="episode-meta sm-12 md-6 col row"><span class="episode-director col-4">Hedy Lamarr</span><span class="episode-writer col-4">Hedy Lamarr</span><span class="episode-air col-3">Januari 16, 2019</span><span class="episode-viewers col-1">12M</span></span></li>
+        <li class="episode-item row"><span class="episode-number col">3</span><span class="episode-title sm-12 md-4 col">"The one with control structures"</span><span class="episode-meta sm-12 md-6 col row"><span class="episode-director col-4">Hedy Lamarr</span><span class="episode-writer col-4">Hedy Lamarr</span><span class="episode-air col-3">Januari 17, 2019</span><span class="episode-viewers col-1">12M</span></span></li>
+        <li class="episode-item row"><span class="episode-number col">4</span><span class="episode-title sm-12 md-4 col">"The one with arrays"</span><span class="episode-meta sm-12 md-6 col row"><span class="episode-director col-4">Hedy Lamarr</span><span class="episode-writer col-4">Hedy Lamarr</span><span class="episode-air col-3">Januari 28, 2019</span><span class="episode-viewers col-1">TB</span></span></li>
+        <li class="episode-item row"><span class="episode-number col">5</span><span class="episode-title sm-12 md-4 col">"The one with functions"</span><span class="episode-meta sm-12 md-6 col row"><span class="episode-director col-4">Hedy Lamarr</span><span class="episode-writer col-4">Hedy Lamarr</span><span class="episode-air col-3">Februari 1, 2019</span><span class="episode-viewers col-1">TB</span></span></li>
+      </ul>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

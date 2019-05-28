@@ -1,0 +1,37 @@
+.hidden {
+  display: none;
+}
+
+.episode-short {
+  background-color: #f0dc4f;
+  padding: 8rem 2rem 2rem 2rem;
+}
+
+.episode-item {
+  padding-top: 1rem;
+  transition: all 235ms ease 0s;
+  box-shadow: 10px 19px 17px -13px rgba(0,0,0,.2);
+}
+
+.episode-item:hover{
+  background-color: #f0dc4f;
+  transform: translate3d(0,2px,0);
+  box-shadow: 2px 8px 8px -5px rgba(0,0,0,.3)
+}
+
+.season-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .episode-meta {
+    display: none;
+  }
+  .episode-list {
+    text-align: center;
+  }
+}
+
+ul li::before {
+  content: none;
+}
